@@ -49,16 +49,14 @@ const ContactPage = () => {
         </div>
     </main>
          
-        <div className='contact-hero'>
+      <div className='contact-hero'>
                 
         <div class="strategy-cont">
-
           <h1>Book A Strategy Call</h1>
           <div className='map-message'>
-
             
-              <form action="http://localhost" method="post">
-                <div className='message'>
+            <form action="http://localhost" method="post">
+              <div className='message'>
                 <input type="text"placeholder='Your Name:' value={name} name='name' onChange={(e)=>{
                   handleValueChange(e);
                 }}/>
@@ -70,17 +68,15 @@ const ContactPage = () => {
                 }} />
                 <input type="hidden" value={true} name='contact_submit' />
                 <button className='submit-btn' type="submit" > Submit </button>
-                </div>
-              </form>
-              
-            
-
-            <div className='message-map'></div>
+              </div>
+            </form>
           </div>
 
+          <div className='message-map'></div>
         </div>
-     <div className='Get-in-touch'>
 
+
+        <div className='Get-in-touch'>
             <h1>Get In Touch</h1>
 
           <div className='Reach-us'>
@@ -88,28 +84,27 @@ const ContactPage = () => {
             <div className='git-info'>
               <FaHome className='info-icon' /> 
               <p>Rt,88 ilorin Kwara state</p>
-             </div>
-             <div className='git-info'>
+            </div>
+            <div className='git-info'>
               <MdEmail className='info-icon' /> 
               <p>alameenthespark@gmail.com</p>
-             </div>
-             <div className='git-info'>
+            </div>
+            <div className='git-info'>
               <FaPhoneVolume className='info-icon' />
               <p>+234 9165-769-896</p>
-             </div>
-             <div className='git-info'>
-               <MdPhoneIphone className='info-icon' />
-              <p>+234 9047-957-855</p>
-             </div>
             </div>
-           
-           <div className='contact-info'>
+             <div className='git-info'>
+              <MdPhoneIphone className='info-icon' />
+              <p>+234 9047-957-855</p>
+            </div>
+          </div>
+          <div className='contact-info'>
             <h6>Contact us for free</h6>
             <h1  className='for-free'>09161699509</h1>
-           </div>
-
           </div>
-         </div>
+
+        </div>
+      </div>
 
       <CallTag />
       <Footer />
