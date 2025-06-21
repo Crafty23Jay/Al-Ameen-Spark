@@ -55,8 +55,8 @@ const ContactPage = () => {
           <h1>Book A Strategy Call</h1>
           <div className='map-message'>
             
-            <form action="http://localhost" method="post">
-              <div className='message'>
+              <form action="http://localhost" method="post">
+                <div className='message'>
                 <input type="text"placeholder='Your Name:' value={name} name='name' onChange={(e)=>{
                   handleValueChange(e);
                 }}/>

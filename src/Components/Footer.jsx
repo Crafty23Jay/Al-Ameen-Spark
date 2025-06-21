@@ -20,15 +20,10 @@ const Footer = () => {
       <div className='logo-side'>
         <img className='Logo-footer' src= {Logo} alt="" />
         <p className='Logo-footer-text'>
-            Al-Ameen Spark is a dynamic digital
-          marketing agency based in Ilorin, Nigeria,
-          but offer service in a entire world and that
-          why weoperate romotely,dedicated to
-          helping businesses of all sizes succeed in
-          the digital world. Our team of creative
-          experts, strategists, and developers work
-          collaboratively to deliver innovative,
-          value-driven solutions.
+          ilm-Nexus Digital Skills is branch of ilm-nexus Comapany 
+          Empowering Young People with Market-Ready Digital Skills 
+          We Build ,
+
          </p>
          <div className='icon'>
            <Link to="https://www.facebook.com/share/1DXsaJPc1c/">  <FaFacebookSquare  class="page-link"/></Link>
@@ -79,11 +74,14 @@ const Footer = () => {
         <h1>Legal Policies</h1>
         <Link class="f-page-link" to="https://docs.google.com/document/d/1nKpxjvpXlHF7SUbRenUYsO6WIqrDZAynkZZ1oPCc1xE/edit?usp=drivesdk">Terms of service</Link>
         <Link class="f-page-link" to="https://docs.google.com/document/d/1xx77cXwW0_lK9m419PRzGmGT6zm0ixQ3BQ_CjzKxM48/edit?usp=drivesdk">Privacy policy</Link>
+        <Link class="f-page-link" to="https://docs.google.com/document/d/1ceblBfpRwGjYDCV_MK-DDKvf7Ov07TuoQAQAF-3wmaE/edit?usp=drivesdk">Copy Right Policy</Link>
+        <Link class="f-page-link" to="https://docs.google.com/document/d/1pcx3kfQyiDqvkxHgkeha8zdeIALCBr0Xb9j_wlFtc-o/edit?usp=drivesdk">Refund policy</Link>
+        <Link class="f-page-link" to="https://docs.google.com/document/d/1UGgdEo5EB3sdV4pqf6tAP9Q-HxloaslPmWpL5wp_7AY/edit?usp=drivesdk">Cookie Policy</Link>
       </div>
     </div>
     <div className='copyright'>
       <hr class="f-line"/>
-      <p> Copyright @ 2025 Al-Ameen-Spark | Powered by The-Techies</p>
+      <p> Copyright @ 2025 ILM NEXUS | Powered by Ilm Nexus Digital Skills</p>
     </div>
     </div>
    
